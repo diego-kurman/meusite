@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(194, 41, 161);;
+  background-color: black;;
   background-size: auto 100vh; 
   font-family: 'Source Code Pro', monospace;
   height: 100vh;
@@ -45,7 +45,7 @@ header {
 }
 
 .menu {
-  background-color: black;
+  background-color: whitesmoke;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -69,13 +69,16 @@ header {
 
 .menu a:active,
 .menu a:hover {
-  background-color: rgb(194, 41, 161);
+  background-color: black;
   color: white;
+  transition: text-shadow 1s;
 }
 
 a {
-  color: rgb(194, 41, 161);
+  color: black;
   text-decoration: none;
+  text-shadow: 3px 0px 10px rgba(255,255,255,.5);
+
 }
 
 
@@ -109,9 +112,11 @@ a {
 }
 
 .site-subtitle {
+  font-size: 1.2em;
  font-style: italic;
- font-family: 'Gloria Hallelujah', cursive;
- line-height: 1.8em;
+ font-family: 'Press Start 2P', cursive;
+ line-height: 4.2em;
+ margin-left: 43%;
 }
 
 .sobre,
